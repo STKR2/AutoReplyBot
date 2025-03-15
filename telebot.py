@@ -1,8 +1,9 @@
 import telebot
+import os
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-API_TOKEN = "Enter your bot token"
-bot = telebot.TeleBot(API_TOKEN)
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+bot = telebot.TeleBot(BOT_TOKEN)
 
 group_messages = {}
 default_message = "_"
