@@ -1,0 +1,17 @@
+{
+  "name": "Send sign - In the group ",
+  "description": "A simple Telegram bot using the TeleBot library, designed for group auto-reply functionality. Admins can set a custom keyword, enable or disable auto-replies, and manage settings via inline buttons. ",
+  "repository": "https://github.com/STKR2",
+  "keywords": ["telegram", "bot", "telebot"],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your Telegram bot token",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
