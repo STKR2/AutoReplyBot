@@ -30,4 +30,4 @@ Make sure you have **Python 3.8+** installed, then run:
 git clone https://github.com/AutoReplyBot.git
 cd AutoReplyBot
 pip install -r requirements.txt
-python3 telebot.py
+python3 bot.py
