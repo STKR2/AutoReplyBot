@@ -1,16 +1,15 @@
-# 🤖 AutoReplyBot – Smart Group Assistant  
+# 🤖 ChatSeparatorBot – Keep Your Group Chats Organized  
 
-A **powerful** and **lightweight** Telegram bot built with the **TeleBot** library.  
-🚀 Designed for **group auto-reply functionality**, allowing admins to **set custom keywords, enable or disable auto-replies, and manage settings easily via inline buttons**.  
+A **simple and efficient** Telegram bot built with the **TeleBot** library.  
+🚀 Designed to **automatically add a separator ("-") after each user message** in a group chat, keeping conversations clean and structured.  
 
 ---
 
 ## 🌟 Features  
-🔹 **Auto-Reply System** – Responds to messages with a preset text when enabled.  
-🔹 **Custom Keywords** – Admins can set personalized trigger words.  
-🔹 **Inline Keyboard** – Quick settings via interactive buttons.  
-🔹 **Admin Control** – Only admins can configure the bot.  
-🔹 **Multi-Platform Support** – Works on **Heroku, VPS, and any Python-supported hosting**.  
+🔹 **Auto-Separation** – Automatically adds a "-" after every user message.  
+🔹 **Lightweight & Fast** – Runs smoothly on **Heroku, VPS, or any Python-supported host**.  
+🔹 **Zero Configuration** – Just add the bot to your group, and it works instantly!  
+🔹 **Privacy-Friendly** – Does not store messages or collect data.  
 
 ---
 
@@ -19,7 +18,7 @@ A **powerful** and **lightweight** Telegram bot built with the **TeleBot** libra
 ### 🚀 **1- Click Deploy on Heroku**  
 Deploy instantly on **Heroku** by clicking the button below:  
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/STKR2/AutoReplyBot)  
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/STKR2/ChatSeparatorBot)  
 
 ---
 
@@ -27,7 +26,7 @@ Deploy instantly on **Heroku** by clicking the button below:
 #### **Step 1: Install Dependencies**  
 Make sure you have **Python 3.8+** installed, then run:  
 ```sh
-git clone https://github.com/AutoReplyBot.git
-cd AutoReplyBot
+git clone https://github.com/STKR2/ChatSeparatorBot.git
+cd ChatSeparatorBot
 pip install -r requirements.txt
 python3 bot.py
