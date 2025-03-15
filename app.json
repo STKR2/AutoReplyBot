@@ -1,8 +1,8 @@
 {
-  "name": "QuickResponder",
-  "description": "A simple Telegram bot using the TeleBot library, designed for group auto-reply functionality. Admins can set a custom keyword, enable or disable auto-replies, and manage settings via inline buttons. ",
+  "name": "AutoFormatterBot",
+  "description": "A Telegram bot that automatically sends a separator (-) after each user message to keep group chats clean and organized.",
   "repository": "https://github.com/STKR2",
-  "keywords": ["telegram", "bot", "telebot"],
+  "keywords": ["telegram", "bot", "auto-format", "group-management", "telebot"],
   "env": {
     "BOT_TOKEN": {
       "description": "Your Telegram bot token",
@@ -13,5 +13,11 @@
     {
       "url": "heroku/python"
     }
-  ]
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  }
 }
