@@ -1,8 +1,8 @@
 {
-  "name": "AutoFormatterBot",
+  "name": "ChatSeparatorBot",
   "description": "A Telegram bot that automatically sends a separator (-) after each user message to keep group chats clean and organized.",
   "repository": "https://github.com/STKR2",
-  "keywords": ["telegram", "bot", "auto-format", "group-management", "telebot"],
+  "keywords": ["telegram", "bot", "ChatSeparatorBot", "python3", "telebot"],
   "env": {
     "BOT_TOKEN": {
       "description": "Your Telegram bot token",
