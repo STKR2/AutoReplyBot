@@ -19,7 +19,7 @@ A **powerful** and **lightweight** Telegram bot built with the **TeleBot** libra
 ### 🚀 **1- Click Deploy on Heroku**  
 Deploy instantly on **Heroku** by clicking the button below:  
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/your-repo)  
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/STKR2/AutoReplyBot)  
 
 ---
 
@@ -27,6 +27,7 @@ Deploy instantly on **Heroku** by clicking the button below:
 #### **Step 1: Install Dependencies**  
 Make sure you have **Python 3.8+** installed, then run:  
 ```sh
-git clone https://github.com/your-repo.git
-cd your-repo
+git clone https://github.com/AutoReplyBot.git
+cd AutoReplyBot
 pip install -r requirements.txt
+python3 telebot.py
